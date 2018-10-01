@@ -1,0 +1,23 @@
+{
+  "name": "dot_crusher",
+  "version": "0.1.0",
+  "description": "Dots show up, you crush em!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "node-sass-middleware": "^0.11.0",
+    "normalize-scss": "^7.0.1"
+  },
+  "engines": {
+    "node": "4.4.5"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "sass"
+  ],
+  "license": "MIT"
+}

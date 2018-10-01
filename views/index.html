@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DotCrusher</title>
+    <meta name="author" content="Jaison Brooks">
+    <meta name="description" content="Dots show up, you crush em!">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="wrapper">
+      <header>
+        <div class="row py-sm">
+          <h2 id="score">0</h2>
+          <button id="start" data-text-swap="Pause">Start</button>
+        </div>
+        <div class="slider-parent">
+          <input type="range" min="10" max="100" step="10" value="10" class="slider" id="range_slider">
+          <p id="range_label"></p>
+        </div>
+      </header>
+      <div id="game">
+        <div id="paused" class="hidden"></div>
+        <div id="made_by">Jaison Brooks</div>
+      </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="/index.js"></script>
+</body>
+</html>
