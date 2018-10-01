@@ -1,13 +1,11 @@
 # Dot Game
 
-The goal of this exercise is to create a game. In the game, dots move from the top to the bottom of the screen. A player tries to click on the dots, and receives points when they are successful.
+The goal of this exercise was to create a game. In the game, dots move from the top to the bottom of the screen. A player tries to click on the dots, and receives points when they are successful.
 
 ![mockup](https://cdn.gomix.com/84ca8f35-cd1c-4d74-ad6f-f1f108b5b85a%2Fdot-game-with-banner.png)
 ![actual](https://github.com/JaisonBrooks/DotCrusher/raw/master/screenshot.png)
 
-
-
-## Guidelines for Completing the Exercise
+## Guidelines for the Game
 
 - Your application should work in current Chrome. 
 - You can edit any file in the project, and add any assets you require (see below).
@@ -25,14 +23,6 @@ The goal of this exercise is to create a game. In the game, dots move from the t
 - Dots should vary randomly in size from 10px in diameter to 100px in diameter.
 - A dot's value is inversely proportional to its size, with the smallest dots worth 10 points, and the largest dots worth 1 point.
 - When a player touches or clicks a dot, the dot should disappear from the box, and the score should be increased based on the dot's value. 
-
-You can view your running application by clicking the "Show" link in the upper left-hand corner of the page. 
-
-## Creating and Using Assets
-
-To create a new asset, click on the "assets" directory in the front-end section; drag the file from you computer to the browser window.
-
-To use an asset, click on the "assets" directory in the front-end section; then, click the "Copy URL" button to get the asset's URL.
 
 ## Running the project locally
 
